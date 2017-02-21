@@ -1,3 +1,87 @@
+var foo = 1;
+function bar() {
+  if (!foo) {
+    var foo = 10;
+  }
+  alert(foo);
+}
+bar();
+
+
+var snack = "granola bar";
+function eat(){
+  console.log(snack);
+  var snack = "snickers"
+}
+
+
+// var snack = "granola bar";
+// function eat(){
+//   console.log(snack);
+// }
+
+function myFunction2(){
+  var word = "cake";
+  console.log(word)
+}
+
+
+[1, 2, 3, 4].map(n => n * n).reduce((sum, n) => (sum + n), 0)
+
+
+function nester() {
+  return () => {
+    return () => {
+      return 'Found me!'
+    }
+  }
+}
+
+var anonymous = () => {}
+var nameless = () => {}
+
+function iHaveAName() {}
+
+function iHaveAName(name) {return name}
+
+
+var formPh = (p1, p2, p3) => {
+  var asdf = "("+p1+")"+p2+"-"+p3
+  return asdf;
+}
+
+var formatPhone = (ph1, ph2, ph3) => {
+  console.log("\("+ph1+"\)"+ph2+"-"+ph3);
+  // console.log(ph1, ph2, ph3);
+}
+
+var addCheese = f => { 
+  console.log("Would you like some extra " + f + " on that?");
+}
+
+var square = n => { return n * n } 
+
+
+var arrowFunction4 = myArg => {
+  console.log(myArg);
+}
+
+
+var arrowFunction3 = (arg1, arg2) => {
+  console.log(arg1, arg2);
+}
+
+var arrowFunction2 = () => {
+  return 'Arrow functions are great!, but I still like the old ones too.';
+}
+ 
+// ----------------------------------
+// var arg1 = "asdf"
+// var arg2 = "blurf"
+// var arrowFunctionArg = (arg1, arg2) => {
+//   console.log(arg1, arg2)
+// }
+
 var arrowFunction = () => {
   console.log('I was called!')
 }

@@ -1,3 +1,18 @@
+
+
+// ----------------------------
+// describe('arrowFunctionArg', function() {
+//   it('gets called with 2 args', function() {
+//     const spy = expect.spyOn(console, 'log').andCallThrough(arg1, arg2)
+
+//     arrowFunction(arg1, arg2)
+
+//     expect(spy).toHaveBeenCalledWith(arg1, arg2)
+
+//     console.log.restore()
+//   })
+// })
+
 describe('arrowFunction', function() {
   it('gets called', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
