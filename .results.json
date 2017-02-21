@@ -1,0 +1,144 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "start": "2017-02-17T13:58:26.666Z",
+    "end": "2017-02-17T13:58:27.016Z",
+    "duration": 350
+  },
+  "tests": [
+    {
+      "title": "returns expected variable, based on scope tricks",
+      "fullTitle": "getVar(string) returns expected variable, based on scope tricks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives one argument and returns it in all caps",
+      "fullTitle": "shout(string) receives one argument and returns it in all caps",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives one argument and returns it in all caps, but 1st letter lowercase",
+      "fullTitle": "medShout(string) receives one argument and returns it in all caps, but 1st letter lowercase",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives one argument and returns it in all lowercase",
+      "fullTitle": "whisper(string) receives one argument and returns it in all lowercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls console.log() its one argument in all caps",
+      "fullTitle": "logShout(string) calls console.log() its one argument in all caps",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls console.log() its one argument in all lowercase",
+      "fullTitle": "logWhisper(string) calls console.log() its one argument in all lowercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I can't hear you!\" if `string` is lowercase",
+      "fullTitle": "sayHiToGrandma(string) returns \"I can't hear you!\" if `string` is lowercase",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"YES INDEED!\" if `string` is uppercase",
+      "fullTitle": "sayHiToGrandma(string) returns \"YES INDEED!\" if `string` is uppercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I love you, too.\" if `string` is \"I love you, Grandma.\"`",
+      "fullTitle": "sayHiToGrandma(string) returns \"I love you, too.\" if `string` is \"I love you, Grandma.\"`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns expected variable, based on scope tricks",
+      "fullTitle": "getVar(string) returns expected variable, based on scope tricks",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives one argument and returns it in all caps",
+      "fullTitle": "shout(string) receives one argument and returns it in all caps",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives one argument and returns it in all caps, but 1st letter lowercase",
+      "fullTitle": "medShout(string) receives one argument and returns it in all caps, but 1st letter lowercase",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "receives one argument and returns it in all lowercase",
+      "fullTitle": "whisper(string) receives one argument and returns it in all lowercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls console.log() its one argument in all caps",
+      "fullTitle": "logShout(string) calls console.log() its one argument in all caps",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calls console.log() its one argument in all lowercase",
+      "fullTitle": "logWhisper(string) calls console.log() its one argument in all lowercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I can't hear you!\" if `string` is lowercase",
+      "fullTitle": "sayHiToGrandma(string) returns \"I can't hear you!\" if `string` is lowercase",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"YES INDEED!\" if `string` is uppercase",
+      "fullTitle": "sayHiToGrandma(string) returns \"YES INDEED!\" if `string` is uppercase",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I love you, too.\" if `string` is \"I love you, Grandma.\"`",
+      "fullTitle": "sayHiToGrandma(string) returns \"I love you, too.\" if `string` is \"I love you, Grandma.\"`",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
