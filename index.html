@@ -4,17 +4,41 @@
     <title>Mocha</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
   </head>
   <body>
     <div id="mocha"></div>
-    <script src="node_modules/mocha/mocha.js"></script>
-    <script src="node_modules/expect/umd/expect.min.js"></script>
-    <script>mocha.setup('bdd');</script>
-    <script src="index.js"></script>
-    <script src="test/index-test.js"></script>
+    <div>
+      <h5 id="greeting">Hello!</h5>
+    </div>
+    <div>
+      <div class="banner">
+        <h1>Hello!</h1>
+      </div>
+     
+      <div class="banner">
+        <h1>Sup?</h1>
+      </div>
+     
+      <div class="banner">
+        <h5>Tinier heading</h5>
+      </div>
+    </div>
     <script>
-      mocha.run();
+      var elements = document.getElementsByClassName('banner');
+      var divs = document.getElementsByTagName('div');
+
+      function changeText(elements){
+        for (var i = elements.length - 1; i >= 0; i--) {
+          document.getElementsByClassName('banner')[i].innerText = "For the " + i + " time...I told you to change your innerText!";
+        }
+      }
+
+      function changeBackground(divs){
+        for (var i = divs.length - 1; i >= 0; i--) {
+          document.getElementsByTagName('div')[i].tagName = 'DIV class="red"';
+        }
+      }
     </script>
+    <script src="testingFunctions.js"></script>
   </body>
 </html>

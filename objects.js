@@ -1,4 +1,4 @@
-var testMeals = {}
+var meals = {}
 
 var foods = new Object({entree: "salad", dessert: "cake"});
 
@@ -8,7 +8,7 @@ const thirdMeal = 'dinner';
 
 var midniteSnack = 'lastSnack'; 
 
-var testMeals = { 
+var meals = { 
   [firstMeal]: "oatmeal",
   [secondMeal]: "bean soup",
   [thirdMeal]: "salad",
@@ -18,16 +18,13 @@ var testMeals = {
   ["gameJunkFood"]: 'chips'
 }
 
-var meals = {
-  breakfast: 'oatmeal',
-  lunch: 'tuna',
-  dinner: 'spaghetti'
-};
- 
-var mealNames = Object.keys(meals);
+function destructiveUpdate(meal, name, value) {
+  meal[name] = value
+  return meal;
+}
 
-function menu() {
-  for (var i = 0, l = mealNames.length; i < l; i++); {
-  console.log(`I ate ${meals[mealNames[i]]} for ${mealNames[i]}!`);
-}
-}
+destructiveUpdate(secondMeal, "lunch", "tacos" );
+
+
+
+document.getElementsByTagName("p");
